@@ -1,5 +1,5 @@
-c,d=map(int,input().split())
-for num in range(c,d+1):
+s,j=map(int,input().split())
+for num in range(s,j+1):
  if num>1:
   for i in range(2,num):
    if(num%i)==0:
